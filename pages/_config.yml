@@ -20,7 +20,7 @@ email: conseg@pucrs.br
 description: >- # this means to ignore newlines until "baseurl:"
   Research Group on Systems Reliability and Security of the Graduate Program in Computer Science of the Polytechnic School of PUC-RS   
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://conseg.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://conseg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: colnotrs
 github_username: dev-conseg
 show_downloads: "false"
