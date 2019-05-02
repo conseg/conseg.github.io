@@ -6,4 +6,4 @@ permalink: /about/
 
 This site is mantained by:
 
-- CONSEG
+- CONSEG - Research Group on Systems Reliability and Security
