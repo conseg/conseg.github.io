@@ -19,12 +19,17 @@ header{
 h2{
   color: #dfdfdf;
 }
-a[id="forkme_banner"]{
-margin: 1;
+
+
+img[id="forkme_banner"]{
+margin: auto;
+padding: auto;
+margin-bottom: -10px;
 }
 
 img[id="consegimg"]{
-  margin: 10px 0 0 0; 
+  margin:0;
+  padding:0;
   border: none; 
   box-shadow: none;
   max-width: 200px;
@@ -32,35 +37,56 @@ img[id="consegimg"]{
   width: 100px;
 }
 
-#downloads {
+h1 {
+  display: block;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
+}
+
+h3{
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+p{
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+
+
+
+#toolbar {
   margin:0;
   padding:0;
-  overflow: hidden;
-  background: url(../images/icon_download.png) no-repeat 0% 90%;
-  background-color: #1c1b20;
+  display: inline-block;
+  width: 100%;
+  height: 49;
+  background-color: #1f1e22;
 }
 
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height: 70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 30px;
- 
+
+
+li[id="lateral"]{
+  display: inline-block;
+  color: #ffffff;
+  line-height: 44px;
+  padding: 0;
+  border-color: #aaa;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 40px ;
+  margin-right: 10px;
+  color: #aaa;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: color .2s ease-in, border-top-color .2s ease-in;
+  -ms-transition: color .2s ease-in, border-top-color .2s ease-in;
+  -moz-transition: color .2s ease-in, border-top-color .2s ease-in;
+  -o-transition: color .2s ease-in, border-top-color .2s ease-in;
+  transition: color .2s ease-in, border-top-color .2s ease-in;
 }
 
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height: 70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
+
 
 @keyframes fadeInLeft {
   0% {
