@@ -15,9 +15,19 @@ header{
   width: 100%;
   display: block;
     background-color: #242329;
+    
 }
 h2{
   color: #dfdfdf;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #242329;
+  color: #FFF;
+  width: 100%;
+  height: 100px;    
 }
 
 
@@ -25,6 +35,7 @@ img[id="forkme_banner"]{
 margin: auto;
 padding: auto;
 margin-bottom: -10px;
+
 }
 
 img[id="consegimg"]{
@@ -35,10 +46,34 @@ img[id="consegimg"]{
   max-width: 200px;
   height: 100px;
   width: 100px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+img[id="news"]{
+  margin:0;
+  padding:0;
+  border: none; 
+  box-shadow: none;
+  max-width: 200px;
+  max-height: 200px;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 h1 {
   display: block;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
+}
+h1[id="sorry"]{
+  display: inline;
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
   font-size: 1.5em;
 }
@@ -49,10 +84,34 @@ h3{
 
 p{
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  margin-left: 10px;
 }
 
+p[id = footerp]{
+  display: inline;
+  margin-left: 40px ;
+  margin-right: 10px;
+}
 
+a{
+  color: #FFF;
+}
+/* link que foi visitado */
+a:visited {
+  color: none;
+}
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+  color: none;
+}
+/* quando o link for selecionado */
+a:active {
+  color: #333;
+}
 
+a[id ="menu"]{
+  text-decoration: none;
+}
 
 #toolbar {
   margin:0;
@@ -85,6 +144,14 @@ li[id="lateral"]{
   -o-transition: color .2s ease-in, border-top-color .2s ease-in;
   transition: color .2s ease-in, border-top-color .2s ease-in;
 }
+
+
+li[id="principaistopicos"]{
+  
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  
+}
+
 
 
 
