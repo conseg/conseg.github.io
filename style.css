@@ -210,6 +210,53 @@ li[id="principaistopicos"]{
 
 
 
+
+
+.flex{
+  display: flex;
+}
+
+.flex__mod{
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: flex-end;
+ margin-right: .5rem;
+
+}
+.cardpeople {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  margin-left: 2em;
+  margin-top: 1em;
+  /* background-image: linear-gradient(to right, #9b0079, #6b00cf);   */
+  background-image: linear-gradient(to right, #1f1e22, #151416);
+  border-radius: 99999px;
+  outline: 1px solid rgba(#FFF, #FFF, #FFF, .5);
+  outline-offset: -8px;
+  border: solid 4px #fc5374;
+  box-shadow: 3px 3px 10px rgba(#FFF, #FFF, #FFF, .1);
+  position: relative;
+  overflow: hidden;
+
+}
+
+img[id ="people"]{
+  margin-right: -.5rem;
+}
+
+ /* .erico{
+  height: 15.3em;
+  width: 15.4em;
+  margin-left: em;
+  } */
+.avelino{
+  height: 17em;
+  width: 17em;
+  margin-top: -1em;
+} 
+
 .card {
   display: inline-block;
   margin: 5rem;
@@ -223,27 +270,45 @@ li[id="principaistopicos"]{
   box-shadow: 3px 3px 10px rgba(#FFF, #FFF, #FFF, .1);
   position: relative;
   overflow: hidden;
+  
 }
+
 .card-image {
   position: absolute;
   inset: 0;
   object-fit: cover;
   opacity: .8;
   transition: transform .75s;
+  
 }
 
 .card:hover .card-image {
   transform: scale(1.15);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h3[id="preto"]{
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: 22em;
+  margin-left: 6em;
+  margin-top: 1em;
+}
+
 .card-title {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   font-weight: 100;
   left: 15px;
   bottom: 14px;
   font-size: 15px;
   text-shadow: none;
+  margin-left: 2.5em;
 }
 
 @keyframes fadeInLeft {
