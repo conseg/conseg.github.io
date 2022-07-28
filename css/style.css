@@ -326,7 +326,16 @@ font-size: 18px;
 
 
 
+.classe404 h1{
+  text-align: center;
+}
 
+
+.classe404 img{
+  margin-top: 2em;
+ margin-left: 100vh;
+  height: 7em;
+}
 
 .flex {
   display: flex;
