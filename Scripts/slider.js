@@ -33,10 +33,10 @@ $(function() {
             $('#slider ul').css('left', '');
         });
     };
-    $('a.control_prev').click(function () {
+    $('button.control_prev').click(function () {
         moveLeft();
     });
-    $('a.control_next').click(function () {
+    $('button.control_next').click(function () {
         moveRight();
     });
 });
