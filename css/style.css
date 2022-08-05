@@ -426,13 +426,14 @@ button.control_next {
   padding: 4% 3%;
   width: auto;
   height: auto;
-  background: #2a2a2a;
+  background: #2a2a2a36;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
   opacity: 0.8;
   cursor: pointer;
+  opacity: .7;
 }
 
 button.control_prev:hover,
