@@ -135,6 +135,9 @@ h1[id="sorry"] {
   /* Adicionado: */
   -webkit-text-fill-color: transparent;
 }
+.logo{
+  text-decoration: none;
+}
 
 h1[id="conseg"] {
   display: inline;
