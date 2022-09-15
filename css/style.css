@@ -242,9 +242,7 @@ nav {
   }
 
 
-  .projetos {
-    display: contents;
-  }
+
 }
 
 .nav-list.active {
@@ -402,7 +400,7 @@ img[id="people"] {
 
 
 .card {
-  display: inline-block;
+  display: inline-flex;
   margin: 5rem;
   width: 500px;
   height: 150px;
