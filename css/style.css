@@ -127,7 +127,7 @@ h1[id="sorry"] {
 }
 
 .gradient {
-  background-image: linear-gradient(to right, #5113c5, #1c51e4c9);
+  background-image: linear-gradient(to right, #fffb00, #dfbe05);
   color: black;
   background-clip: text;
   -webkit-background-clip: text;
@@ -250,7 +250,9 @@ nav {
     visibility: visible;
   }
   
-
+  .pubs{
+    margin: 1.9em;
+  }
 
   @keyframes navLinkFade {
     from {
@@ -276,7 +278,10 @@ nav {
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
-
+ .logo{
+  text-decoration: none;
+ }
+ 
 #toolbar {
   margin: 0;
   padding: 0;
@@ -359,11 +364,18 @@ font-size: 18px;
   border-radius: 99999px;
   outline: 1px solid rgba(#FFF, #FFF, #FFF, .5);
   outline-offset: -8px;
-  border: solid 5px #2200ff;
+  border: solid 5px #e5ff00;
   box-shadow: 3px 3px 10px rgba(#FFF, #FFF, #FFF, .1);
   position: relative;
   overflow: hidden;
 
+}
+.setamarelo{
+  width: 3em;
+  margin: .6em;
+  margin-top: 1em;
+  margin-left: -2em;
+  position: absolute;
 }
 
 img[id="people"] {
@@ -388,7 +400,7 @@ img[id="people"] {
   width: 500px;
   height: 150px;
   /* background-image: linear-gradient(to right, #9b0079, #6b00cf);   */
-  background-image: linear-gradient(to right, #1f1e22, #151416);
+  background-image: linear-gradient(to right, #22221e, #151416);
   border-radius: 10px;
   outline: 1px solid rgba(#FFF, #FFF, #FFF, .5);
   outline-offset: -8px;
