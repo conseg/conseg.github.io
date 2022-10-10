@@ -6,53 +6,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,maximum-scale=2">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <link rel="stylesheet" type="text/css" href="./css/responsivo.css">
+
   <title>Home | CONSEG</title>
-  <meta name="generator" content="Jekyll v3.8.5" />
-  <meta property="og:title" content="Home" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description"
-    content="Research Group on Systems Reliability and Security of the Graduate Program in Computer Science of the Polytechnic School of PUC-RS" />
-  <meta property="og:description"
-    content="Research Group on Systems Reliability and Security of the Graduate Program in Computer Science of the Polytechnic School of PUC-RS" />
-  <link rel="canonical" href="http://localhost:4000/" />
-  <meta property="og:url" content="http://localhost:4000/" />
-  <meta property="og:site_name" content="CONSEG" />
-  <script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"CONSEG","description":"Research Group on Systems Reliability and Security of the Graduate Program in Computer Science of the Polytechnic School of PUC-RS","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/conseg-logo.png"}},"@type":"WebSite","headline":"Home","@context":"http://schema.org"}</script>
-  <!-- End Jekyll SEO tag -->
-  <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+  <link rel="shortcut icon" href="./icon/consegfavico.png" type="image/x-icon">
 
 </head>
 
 <body>
   <header>
-    <!-- logo do site -->
+    <!-- Para mudar a cor de alguma imagem basta mudar o nome da cor na imagem ex: Conseg-logo/rosa.png  cores: rosa,amarelo,azul-->
+    <img src="./imagens/icons/Conseg-Logo/azul.png" alt="Logo-do-site" id="consegimg" />
 
-    <img src="imagens/logo_personalizada_azul.png" alt="Logo" width="40%" id="consegimg"/>
-    <img src="./imagens/setamarelo.png" alt="set amarelo" class="setamarelo">
+    <!-- Descomentar Quando for setembro: 
+      <img src="./imagens/setamarelo.png" alt="set amarelo" class="setamarelo">
+    -->
 
+    <!-- para mudar a cor do titulo mude a classe gradient do style.css -->
     <h1 class="gradient" id="conseg"><a class="logo" href="index.html">CONSEG</a></h1>
 
+
+    <!-- menu hamburguer criado -->
     <nav>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
+
+
+      <!-- lista das paginas e para o github do grupo de pesquisa -->
       <ul class="nav-list">
         <li id="lateral"><a href="index.html" id="menu">home</a></li>
         <!-- <li id="lateral"> <a href="news.html" id="menu"> News</a></li> -->
         <li id="lateral"> <a href="people.html" id="menu">People</a> </li>
-       <li id="lateral"> <a href="projects.html" id="menu">Projects</a></li>
+        <li id="lateral"> <a href="projects.html" id="menu">Projects</a></li>
         <li id="lateral"> <a href="pubications.html" id="menu">Publications</a></li>
-        <li id="lateral"> <a href="courses.html" id="menu">Courses</a></li>
+
         <li id="lateral"><a id="forkme_banner" href="https://github.com/conseg/conseg.github.io"> <img
-              src="imagens/blacktocat.png" id="forkme_banner"></a></li>
+              src="./imagens/icons/githubicon.png" id="forkme_banner"></a></li>
       </ul>
     </nav>
   </header>
@@ -60,57 +53,83 @@
 
 
   <main>
-   
- <br>
- <br>
- <br>
+
     <section>
-      <h1>About CONSEG</h1>
-
-      <p>Research Group on Systems Reliability and Security of the Graduate Program in Computer Science of the
-        Polytechnic School of PUC-RS.</p> <br>
-
-      <div id="principaistopicosdiv">
-        <h3>Main topics of interest:</h3>
-        <ul>
-          <li id="principaistopicos">Cybersecurity ofensive;</li>
-          <li id="principaistopicos">Privacy</li>
-          <li id="principaistopicos">Blockchain</li>
-          <li id="principaistopicos">Ctfs</li>
-        </ul>
+      <!-- div   que cria os titulos com o circulo do lado  -->
+      <div class="flex">
+        <img src="./imagens/icons/circuloazul.png" alt="" id="circuloazul">
+        <h1 class="about">About CONSEG:</h1>
       </div>
-      <br>
+      <!-- ------------------------------------------------------------ -->
     </section>
-   
-
-    <script src="./Scripts/slider.js"></script>
-
-
-  
+    <!-- aqui é criado cada uma das caixas -->
+    <div class="box blue">
+      <img src="./imagens/icons/circuloazul.png" alt="" width="5%">
 
 
- 
+      <p>Conseg is a Research Group on Systems Reliability and Security of the Graduate Program in Computer Science of
+        the
+        Polytechnic School of PUC-RS.</p> <br>
+      <img src="./Imagens/icons/faq.png" alt="" id="card" width="20%">
+      <br>
+      <br>
+    </div>
+    <!-- ------------------------------------------------------------ -->
+
+    <section>
+      <div class="flex">
+        <img src="./imagens/icons/circuloazul.png" alt="" id="circuloazul">
+        <h1 class="about">Main topics of interest:</h1>
+      </div>
+
+    </section>
+    <div class="flex">
+      <div class="box blue">
+        <img src="./imagens/icons/circuloazul.png" alt="" width="5%">
+        <h2 class="titulo-box">Cybersecurity ofensive</h2>
+        <img src="./Imagens/icons/Weasels/Azul.png" alt="" id="card" width="30%">
+      </div>
+
+      <div class="box blue">
+        <img src="./imagens/icons/circuloazul.png" alt="" width="5%">
+        <h2 class="titulo-box">Privacy</h2>
+        <img src="./imagens/icons/Privacy/Azul.png" alt="" id="card" width="17%">
+      </div>
+
+      <div class="box blue">
+        <img src="./imagens/icons/circuloazul.png" alt="" width="5%">
+        <h2 class="titulo-box">Blockchain</h2>
+        <img src="./imagens/icons/Conseg-Logo/azul.png" alt="" id="card" width="60%">
 
 
+      </div>
+      <div class="box blue">
+        <img src="./imagens/icons/circuloazul.png" alt="" width="5%">
+        <h2 class="titulo-box">Ctfs</h2>
+        <img src="./imagens/icons/CTF/azul.png" alt="" id="card" width="30%">
+      </div>
 
-
-
-  
+    </div>
+    <div class="box blue">
+      <img src="./imagens/icons/circuloazul.png" alt="" width="5%">
+      <h2 class="titulo-box">Forensics</h2>
+      <img src="./imagens/icons/Forensics/azul.png" alt="" id="card" width="20%">
+     <!-- foi utilizado algumas quebra de linhas para a caixa da forensics ser um pouco maior e cobrir a imagem da lupa -->
+      <br>
+      <br>
+      <br>
+    </div>
+    </div>
   </main>
 
 
 
-
-<footer class="grande">
+  <!-- rodapé da página -->
+  <footer>
 
     <p id="footerp"><span> &#169; </span>CONSEG maintained by <a href="https://github.com/conseg">conseg</a></p>
 
-    <p id="footerp">Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-
-    <img src="./imagens/Brasão_PUCRS.png" alt="brasão pucrs" id="iconpucrs">
-
   </footer>
-
 
 
 </body>
