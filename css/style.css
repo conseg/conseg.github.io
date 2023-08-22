@@ -28,7 +28,6 @@ body {
 
 
 header {
-  width: 100%;
   display: inline;
   background-color: #242329;
 
@@ -269,6 +268,27 @@ nav {
   text-decoration: none;
  }
  
+ 
+.apresentacao {
+  background-image: linear-gradient(to bottom , #242329, rgb(6, 57, 134) );
+  display: flex;
+  place-items: center;
+  color: #ffffff;
+  padding: 5em;
+}
+
+.apresentacao h1 {
+  margin: 0;
+  font-size: 40px;
+  margin-left: 1em;
+}
+
+.apresentacao img {
+  max-width: 100%;
+  margin-left: 1px;
+  width: 15em;
+}
+
 #toolbar {
   margin: 0;
   padding: 0;
