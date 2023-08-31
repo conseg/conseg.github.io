@@ -255,7 +255,7 @@ nav :hover {
 .apresentacao {
     background-image: linear-gradient(to bottom, #242329, rgb(6, 57, 134));
     display: flex;
-    place-items: center;
+    align-items: center;
     color: #ffffff;
     padding: 5em;
 }
@@ -335,17 +335,23 @@ li[id="principaistopicos"] {
     list-style: none;
 }
 
-
+.classe404{
+    align-items: center;
+    text-align: center;
+}
 
 .classe404 h1 {
-    text-align: center;
+  margin-top: 1em;
+    font-family: 'Inter', sans-serif;
+    color: #2f2d2d;
 }
 
 
 .classe404 img {
-    margin-top: 2em;
-    margin-left: 100vh;
-    height: 7em;
+    margin-top: 10em;
+    height: 20em;
+    
+    
 }
 
 
