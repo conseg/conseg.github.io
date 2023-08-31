@@ -90,6 +90,10 @@
         
     }
 
+    .box img{
+        scale: 50%;
+    }
+
     h2[id="CO"]{
     margin-left: 2em;
     
