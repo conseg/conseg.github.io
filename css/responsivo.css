@@ -90,10 +90,11 @@
         
     }
 
-    .box img{
-        scale: 50%;
-    }
 
+    .circuloazul{
+        display: none;
+        
+    }
     h2[id="CO"]{
     margin-left: 2em;
     
